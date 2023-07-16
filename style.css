@@ -1,0 +1,175 @@
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:"Redhat";
+    src: url("/fonts/RedHatDisplay-VariableFont_wght.ttf");
+}
+
+body {
+    font-family: 'Red Hat Display',
+        sans-serif;
+    min-height: 100vh;
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+    font-size: 16px;
+}
+
+.Container
+{
+    
+    height: 680px;
+    width:450px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   margin-left: auto;
+   margin-right: auto;
+   box-shadow: 1px;
+   background-color: white;
+   border-top-left-radius: 25px;
+   border-top-right-radius: 25px;
+}
+.🧷
+{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+.🥪
+{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: "Redhat";
+    font-weight: 500;
+    box-shadow: 1px grey ;
+    
+  
+ 
+   
+   
+}
+.🐌
+{
+    position: relative;
+    top: 30px;
+    font-family: "Redhat";
+    font-weight: 500;
+    color: hsl(228, 7%, 74%);
+    text-align: center;
+   
+    
+}
+.⛏️
+{
+    background-color: hsl(225, 100%, 98%);
+    height: 100px;
+    width: 300px;
+   border-radius: 10px;
+    position: relative;
+    top: 50px;
+}
+.🎵
+{
+    position: relative;
+    top:27px;
+    left: 22px;
+}
+.🌴
+{
+    position: relative;
+    font-size: 17px;
+    left: 80px;
+    bottom:25px;
+    font-family: "Redhat";
+
+}
+.💰
+{
+    position: relative;
+    left: 80px;
+    bottom: 18px;
+    color: hsl(228, 7%, 74%);
+}
+.🔏
+{
+    position: relative;
+    left: 230px;
+    bottom:55px;
+    font-size: 15px;
+    font-family:"Redhat";
+    color:rgb(56,42,225);
+}
+A:hover
+{
+     color: hsl(225, 4%, 43%);
+}
+.🚀
+{
+    position: relative;
+    top:14px;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    background-color:rgb(56,42,225);
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+
+}
+.🍒{
+    font-family:"Redhat";
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: 900;
+    position: relative;
+    bottom: 2px;
+
+
+
+
+}
+.🧑‍⚖️
+{
+    position: relative;
+    left: 28px;
+}
+.🚀:active
+{
+    background-color: rgb(118,108,241);
+}
+.🚀:hover
+{
+   background-color: rgb(118,108,241);
+}
+.😆
+{
+    position: relative;
+    top:30px;
+    left:95px;
+    border: none;
+    background-color:transparent;
+    font-family: "Redhat";
+    font-size: 15px;
+    color: hsl(228, 7%, 74%);
+    font-weight: 900;
+
+}
+
+.😆:active
+{
+    color: black;
+}
