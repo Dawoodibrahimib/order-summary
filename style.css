@@ -8,14 +8,14 @@
 
 @font-face {
     font-family:"Redhat";
-    src: url("/fonts/RedHatDisplay-VariableFont_wght.ttf");
+    src: url("./fonts/RedHatDisplay-VariableFont_wght.ttf");
 }
 
 body {
     font-family: 'Red Hat Display',
         sans-serif;
     min-height: 100vh;
-    background-image: url("/images/pattern-background-desktop.svg");
+    background-image: url("./images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: hsl(225, 100%, 94%);
